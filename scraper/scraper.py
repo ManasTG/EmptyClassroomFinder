@@ -26,6 +26,8 @@ for section in sections:
 
 print(sectionList)
 
+# Lab or not
+lab = 0
 
 # Parsing
 days = {
@@ -47,9 +49,11 @@ for i in range(len(sectionList)):
 
     time.sleep(0.1)
 
-    print("================")
+    print("============================")
+    print("============================")
     print(sectionList[i])
-    print("================")
+    print("============================")
+    print("============================")
 
     rects = driver.find_elements(
     "css selector",
@@ -59,8 +63,19 @@ for i in range(len(sectionList)):
     for rect in rects:
         title = rect.find_elements("tag name", "title")
 
-        x = int(rect.get_attribute("x"))
-        y = int(rect.get_attribute("y"))
+        x = float(rect.get_attribute("x"))
+        y = float(rect.get_attribute("y"))
+
+        def labChecker():
+            labCheck = float(rect.get_attribute("width"))
+
+            if labCheck > 285:
+                lab=1
+                return(int(period+1), int(period+2))
+
+            else:
+                lab=0
+                return(int(period+1))
 
         period = (x - 345)/285
         day = (y - 420)/255
@@ -69,8 +84,8 @@ for i in range(len(sectionList)):
             continue
 
         print("--------------------")
-        print("Period:", int(period+1))
-        print("Day:", days[day])
+        print("Period:", labChecker())
+        print("Day:", days[int(day)])
         print("TITLE:")
         print(title[0].get_attribute("textContent"))
 
