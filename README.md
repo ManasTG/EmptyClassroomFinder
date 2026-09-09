@@ -16,3 +16,4 @@ Scrapes from IILM website -> JSON file -> Use Python for Logic -> Simple Fronten
 ## roadmap
 1. Built a scraper that works for one page.(8/9/26)
 2. work on extracting the exact period and day of that lecture using x,y ht,wt
+3. work on the edge cases for labs
