@@ -1,4 +1,4 @@
-import requests
+import json
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -13,6 +13,17 @@ driver.get("https://iilmgn.edupage.org/timetable/")
 
 time.sleep(2)   # Wait for js/svg to load
 
+# Faculty list; for checking ambiguity
+faculty = driver.find_element("css selector", 'span[title="Teachers"]').click()
+facultyDropdown = driver.find_element("css selector",'[class ="dropDownPanel asc-context-menu"]')
+facultyNames = facultyDropdown.find_elements("xpath", 'li/a')
+
+facutlyList = []
+for facultyName in facultyNames:
+    facutlyList.append(facultyName.text)
+
+# print(facutlyList)
+
 # Interaction with the classes drop-down menu
 classes = driver.find_element("css selector",'span[title="Classes"]').click()
 
@@ -20,14 +31,13 @@ dropdown = driver.find_element("css selector", '[class ="dropDownPanel asc-conte
 sections = dropdown.find_elements("xpath", 'li/a')
 
 # Loop and Store the name of the sections
-sectionList = []
+# sectionList = ['1BCA1'] # FOR TESTING
+sectionList = []  # FOR USE
+
 for section in sections:
     sectionList.append(section.text)
 
 print(sectionList)
-
-# Lab or not
-lab = 0
 
 # Parsing
 days = {
@@ -39,6 +49,7 @@ days = {
     5:"Saturday"
 }
 
+allData = []
 
 for i in range(len(sectionList)):
     classes = driver.find_element("css selector",'span[title="Classes"]').click()
@@ -70,12 +81,10 @@ for i in range(len(sectionList)):
             labCheck = float(rect.get_attribute("width"))
 
             if labCheck > 285:
-                lab=1
-                return(int(period+1), int(period+2))
+                return[int(period+1), int(period+2)]
 
             else:
-                lab=0
-                return(int(period+1))
+                return[int(period+1)]
 
         period = (x - 345)/285
         day = (y - 420)/255
@@ -83,10 +92,39 @@ for i in range(len(sectionList)):
         if not title:
             continue
 
-        print("--------------------")
-        print("Period:", labChecker())
-        print("Day:", days[int(day)])
-        print("TITLE:")
-        print(title[0].get_attribute("textContent"))
+        title = title[0].get_attribute("textContent")
+        parts = title.split("\n")   # To split off the content in title (subject [0], faculty [1], classroom [2])
+        #
+        # classroom = parts[2].strip() if len(parts)==3 else parts[3].strip() # Check if there is lab or not
+        if parts[-1].strip() in facutlyList:
+            classroom = None
+        else:
+            classroom =  parts[-1].strip()
+
+        subject = parts[0].strip()
+
+        data = {
+            "Section": sectionList[i],
+            "Subject": subject,
+            "Classroom": classroom,
+            "Period": labChecker(),
+            "Day": days[int(day)]
+            }
+        # print("--------------------")
+        # print("Period:", labChecker())
+        # print("Day:", days[int(day)])
+        # print("Part:")
+        # print(parts)
+        # print("Classroom:", classroom)
+        # print("TITLE:")
+        # print(title) # [0].get_attribute("textContent"))
+
+        allData.append(data)  # TURNED OFF FOR TESTING
+
+        print(data)   # TURNED OFF FOR TESTING
+
+
+with open("test.json", "w", encoding="utf-8") as f:  # TURNED OFF FOR TESTING
+    json.dump(allData, f, indent=4, ensure_ascii=False)
 
 driver.quit()
