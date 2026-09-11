@@ -2,17 +2,60 @@ import json
 import time
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 
-# Needs changing when deploying to the server
-options = Options()
-# options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox" # FOR TESTING
-options.add_argument("--headless")  # FOR PRODUCTION
 
-# Loads the browser and the uni site
-driver = webdriver.Firefox(options=options)
-driver.get("https://iilmgn.edupage.org/timetable/")
+maxRetries = 3
 
-time.sleep(2)   # Wait for js/svg to load
+def create_driver():
+
+    # Needs changing when deploying to the server
+    options = Options()
+
+    # options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox" # FOR TESTING
+    options.add_argument("--headless")  # FOR PRODUCTION
+
+    return(webdriver.Firefox(options=options))
+
+
+def load_page():
+    for attempt in range(1, maxRetries + 1):
+        driver = None
+
+        try:
+            print(f"Tries: {attempt}/{maxRetries}")
+            driver = create_driver()
+
+            # Loads the browser and the uni site
+            driver.get("https://iilmgn.edupage.org/timetable/")
+
+            # Wait to see if button loads or not
+            WebDriverWait(driver, 15).until(
+                lambda d: d.find_element(
+                    By.CSS_SELECTOR,
+                    'span[title="Classes"]'
+                )
+            )
+
+            return driver
+
+        except TimeoutException:
+            print("Website not loaded")
+
+        if driver:
+            driver.quit()
+
+        if attempt < maxRetries:
+            print("Retry")
+            time.sleep(3)
+
+    raise RuntimeError(f"Website fails to load after {maxRetries} attempts.")
+
+
+driver = load_page()
+
 
 # Faculty list; for checking ambiguity
 faculty = driver.find_element("css selector", 'span[title="Teachers"]').click()
@@ -23,7 +66,7 @@ facutlyList = []
 for facultyName in facultyNames:
     facutlyList.append(facultyName.text)
 
-# print(facutlyList)
+print("Faculty Name Extracted")
 
 # Interaction with the classes drop-down menu
 classes = driver.find_element("css selector",'span[title="Classes"]').click()
@@ -59,13 +102,20 @@ for i in range(len(sectionList)):
 
     section.click()
 
-    time.sleep(0.1)
+    WebDriverWait(driver, 10).until(
+        lambda d: len(
+            d.find_elements(
+                By.CSS_SELECTOR,
+                'rect[fill="transparent"]'
+            )
+        ) > 0
+    )
 
-    print("============================")
-    print("============================")
-    print(sectionList[i])
-    print("============================")
-    print("============================")
+    # print("============================")
+    # print("============================")
+    # print(sectionList[i])
+    # print("============================")
+    # print("============================")
 
     rects = driver.find_elements(
     "css selector",
