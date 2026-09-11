@@ -122,7 +122,7 @@ for i in range(len(sectionList)):
 
         allData.append(data)  # TURNED OFF FOR TESTING
 
-        print(data)   # TURNED OFF FOR TESTING
+        # print(data)   # TURNED OFF FOR TESTING
 
 
 with open("test.json", "w", encoding="utf-8") as f:  # TURNED OFF FOR TESTING
