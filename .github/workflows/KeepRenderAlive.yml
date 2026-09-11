@@ -2,9 +2,11 @@ name: Keep Render App Alive
 
 on:
   schedule:
-    # Every 15 minutes, Monday-Friday
-    # 07:30 IST → 17:15 IST
-    - cron: "*/14.9 2-11 * * 1-5"
+    # 07:30, 07:45, 08:00, 08:15 IST
+    - cron: "0,15,30,45 2 * * 1-5"
+
+    # 08:00–17:45 IST
+    - cron: "*/15 3-12 * * 1-5"
 
   workflow_dispatch:
 
@@ -15,4 +17,4 @@ jobs:
     steps:
       - name: Ping Render
         run: |
-          curl -f https://YOUR-APP.onrender.com/health
+          curl -f https://kylekrane.in/emptyclassroomfinder/health

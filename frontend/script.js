@@ -14,51 +14,13 @@ function findroom() {
 
         results.innerHTML = "";
 
-        // Heading
-        const heading = document.createElement("h2");
-        heading.textContent = "Available Classrooms";
-        results.appendChild(heading);
+        rooms.forEach(room => {
+            const roomElement = document.createElement("p");
+            roomElement.textContent = room;
 
-        const info = document.createElement("p");
-        info.textContent = `${day} • Period ${period}`;
-        info.className = "result-info";
-        results.appendChild(info);
-
-
-        // Table
-        const table = document.createElement("table");
-        table.className = "result-table";
-
-        table.innerHTML = `
-        <thead>
-        <tr>
-        <th>#</th>
-        <th>Classroom</th>
-        </tr>
-        </thead>
-        `;
-
-
-        const tbody = document.createElement("tbody");
-
-        rooms.forEach((room, index) => {
-
-            const row = document.createElement("tr");
-
-            const number = document.createElement("td");
-            number.textContent = index + 1;
-
-            const roomName = document.createElement("td");
-            roomName.textContent = room;
-
-            row.appendChild(number);
-            row.appendChild(roomName);
-
-            tbody.appendChild(row);
+            results.appendChild(roomElement);
         });
 
-
-        table.appendChild(tbody);
-        results.appendChild(table);
     });
+
 }

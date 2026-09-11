@@ -16,6 +16,9 @@ def log_response(response):
 def home():
     return send_from_directory('frontend', 'index.html')
 
+@app.route("/health")
+def health():
+    return {"status": "ok"}
 
 @app.route('/find')
 def find_room():
