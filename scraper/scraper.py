@@ -5,8 +5,7 @@ from selenium.webdriver.firefox.options import Options
 
 # Needs changing when deploying to the server
 options = Options()
-# options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox" # FOR TESTING
-options.add_argument("--headless")  # FOR PRODUCTION
+options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox"
 
 # Loads the browser and the uni site
 driver = webdriver.Firefox(options=options)
