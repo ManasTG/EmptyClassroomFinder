@@ -1,8 +1,8 @@
 import json
 
-f = open("/run/media/krane/Local Disk 2/Projects/OpenSource/emptyClassroom/EmptyClassroomFinder/src/allClassroom.json", "r")
+f = open("allClassroom.json", "r")
 
-d = open("/run/media/krane/Local Disk 2/Projects/OpenSource/emptyClassroom/EmptyClassroomFinder/test.json", "r")
+d = open("../test.json", "r")
 
 allClassroom = set(json.load(f))
 timetable = json.load(d)

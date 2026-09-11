@@ -1,6 +1,6 @@
 import json
 
-f = open("/run/media/krane/Local Disk 2/Projects/OpenSource/emptyClassroom/EmptyClassroomFinder/test.json", "r")
+f = open("../test.json", "r")
 
 jsonData = json.load(f)
 
