@@ -1,3 +1,9 @@
+selenium
+requests
+bs4
+flask
+jsonify
+gunicorn
 attrs==26.1.0
 beautifulsoup4==4.15.0
 blinker==1.9.0
