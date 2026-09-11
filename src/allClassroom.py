@@ -7,10 +7,11 @@ jsonData = json.load(f)
 classroom = set()
 
 for item in jsonData:
-    classroom.add(item["Classroom"])    # Extracts the value from Classroom and add it into the set
+    if item["Classroom"] is not None:
+        classroom.add(item["Classroom"])    # Extracts the value from Classroom and add it into the set
 
 classroom = list(classroom)
-classroom = [c for c in classroom if c is not None]
+# classroom = [c for c in classroom if c is not None]
 
 classroom.sort()
 
