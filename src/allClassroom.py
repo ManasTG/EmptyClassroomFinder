@@ -1,6 +1,9 @@
+from pathlib import Path
 import json
 
-f = open("../test.json", "r")
+BASE_DIR = Path(__file__).resolve().parent
+
+d = open(BASE_DIR.parent / "test.json", "r")
 
 jsonData = json.load(f)
 

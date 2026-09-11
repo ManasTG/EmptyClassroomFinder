@@ -1,8 +1,10 @@
+from pathlib import Path
 import json
 
-f = open("allClassroom.json", "r")
+BASE_DIR = Path(__file__).resolve().parent
 
-d = open("../test.json", "r")
+f = open(BASE_DIR / "allClassroom.json", "r")
+d = open(BASE_DIR.parent / "test.json", "r")
 
 allClassroom = set(json.load(f))
 timetable = json.load(d)
