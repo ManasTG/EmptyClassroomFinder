@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Empty Classroom Finder - IILM</title>
-
+    <script>
+        if (window.location.pathname.startsWith("/emptyclassroomfinder")) {
+            document.write('<base href="/emptyclassroomfinder/">');
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 
