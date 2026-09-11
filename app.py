@@ -12,10 +12,9 @@ def log_response(response):
     print(f"Outgoing requests: {response.status_code}")
     return response
 
-@app.route('/')
+@app.route('/emptyClassroomFinder')
 def home():
     return send_from_directory('frontend', 'index.html')
-
 
 @app.route('/find')
 def find_room():
