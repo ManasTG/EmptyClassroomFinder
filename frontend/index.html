@@ -1,6 +1,11 @@
 <body>
+    <script>
+        if (window.location.pathname.startsWith("/emptyclassroomfinder")) {
+            document.write('<base href="/emptyclassroomfinder/">');
+        }
+    </script>
+    <script src="script.js"></script>
 
-    <script src="emptyclassroomfinder/script.js"></script>
     <p> Day </p>
     <select id="day">
         <option value="Monday">Monday</option>
