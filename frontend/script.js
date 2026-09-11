@@ -2,7 +2,7 @@ function findroom() {
     const day = document.getElementById("day").value;
     const period = document.getElementById("period").value;
 
-    fetch(`/find?day=${day}&period=${period}`)
+    fetch(`/emptyclassroomfinder/find?day=${day}&period=${period}`)
     .then(response => response.json())
     .then(rooms => {
 
