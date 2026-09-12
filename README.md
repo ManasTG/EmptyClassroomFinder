@@ -33,8 +33,13 @@ Following were the tech needed for created the project:
 ## Architecture
 
 Scrapes from IILM website -> JSON file -> Use Python for Logic -> Simple Frontend to show the empty classroom
+#### Process
+<img width="677" height="962" alt="Process" src="https://github.com/user-attachments/assets/368d7a7f-3f68-4b56-bca6-82beb12bb57d" />
 
-[Insert image]
+#### Workflow Simplifies
+<img width="496" height="207" alt="WorkflowSimplified" src="https://github.com/user-attachments/assets/30e35681-352b-4e5b-9e97-af594e4a925b" />
+
+
 
 ## File Struture
 
