@@ -4,7 +4,7 @@ import json
 BASE_DIR = Path(__file__).resolve().parent
 
 f = open(BASE_DIR / "allClassroom.json", "r")
-d = open(BASE_DIR.parent / "test.json", "r")
+d = open(BASE_DIR.parent / "timetable.json", "r")
 
 allClassroom = set(json.load(f))
 timetable = json.load(d)

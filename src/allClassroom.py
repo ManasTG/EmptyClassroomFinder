@@ -3,7 +3,7 @@ import json
 
 BASE_DIR = Path(__file__).resolve().parent
 
-d = open(BASE_DIR.parent / "test.json", "r")
+d = open(BASE_DIR.parent / "timetable.json", "r")
 
 jsonData = json.load(f)
 

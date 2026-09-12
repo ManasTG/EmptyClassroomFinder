@@ -1,13 +1,6 @@
 name: Keep Render App Alive
 
 on:
-  schedule:
-    # 07:30, 07:45, 08:00, 08:15 IST
-    - cron: "0,15,30,45 2 * * 1-5"
-
-    # 08:00–17:45 IST
-    - cron: "*/15 3-12 * * 1-5"
-
   workflow_dispatch:
 
 jobs:

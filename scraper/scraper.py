@@ -175,7 +175,7 @@ for i in range(len(sectionList)):
         # print(data)   # TURNED OFF FOR TESTING
 
 
-with open("test.json", "w", encoding="utf-8") as f:  # TURNED OFF FOR TESTING
+with open("timetable.json", "w", encoding="utf-8") as f:  # TURNED OFF FOR TESTING
     json.dump(allData, f, indent=4, ensure_ascii=False)
 
 driver.quit()
