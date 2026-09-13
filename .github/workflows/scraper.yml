@@ -26,6 +26,9 @@ jobs:
       - name: Run scraper
         run: python scraper/scraper.py
 
+      - name: Run allClassroom
+        run: python src/allClassroom.py
+
       - name: Save updated data
         run: |
           git config user.name "github-actions[bot]"
