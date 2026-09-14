@@ -6894,7 +6894,26 @@
         "Period": [
             6
         ],
-        "Day": "Thursday"
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            7
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEP111-Linux Administration Lab",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Tuesday"
     },
     {
         "Section": "1CSE39",
@@ -6917,6 +6936,15 @@
     },
     {
         "Section": "1CSE39",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            6
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE39",
         "Subject": "26SOST101-Semiconductor and Quantum Physics",
         "Classroom": "Foundation Block 301",
         "Period": [
@@ -6930,6 +6958,15 @@
         "Classroom": "Foundation Block 301",
         "Period": [
             6
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            9
         ],
         "Day": "Friday"
     },
