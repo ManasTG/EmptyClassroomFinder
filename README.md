@@ -10,6 +10,8 @@ This project solves that problem by scraping the timetable directly from the uni
 
 A Github Action workflow runs where it trigger's the scraping process every morning 7AM. If the timetable has changed, the updated JSON data is committed to the repository. If there are no changes, no commit is made.
 
+---
+
 ## Features
 
 - Automatically scrapes the latest timetable data
@@ -17,6 +19,7 @@ A Github Action workflow runs where it trigger's the scraping process every morn
 - Calculates which classrooms are empty for a selected day and period
 - Provides a simple web interface for finding empty classrooms
 
+---
 
 ## Tech
 
@@ -30,16 +33,19 @@ Following were the tech needed for created the project:
 - HTML/CSS
 - GitHub Actions for automation
 
+---
+
 ## Architecture
 
 Scrapes from IILM website -> JSON file -> Use Python for Logic -> Simple Frontend to show the empty classroom
 #### Process
-<img width="677" height="962" alt="Process" src="https://github.com/user-attachments/assets/368d7a7f-3f68-4b56-bca6-82beb12bb57d" />
+<img width="40%" alt="Process" src="https://github.com/user-attachments/assets/368d7a7f-3f68-4b56-bca6-82beb12bb57d" />
 
+---
 #### Workflow Simplifies
-<img width="496" height="207" alt="WorkflowSimplified" src="https://github.com/user-attachments/assets/30e35681-352b-4e5b-9e97-af594e4a925b" />
+<img width="496" height="207" alt="WorkflowSimplified" src="https://github.com/user-attachments/assets/a007ef3c-da58-4c2e-a2da-030c42ce2fe6" />
 
-
+---
 
 ## File Struture
 
@@ -62,14 +68,20 @@ Scrapes from IILM website -> JSON file -> Use Python for Logic -> Simple Fronten
 └── timetable.json
 ```
 
+---
+
 ## Deployment
 
 The site was deployed on `Render` but was routed through `Cloudflare`.
+
+---
 
 ## Future Additions
 
 - Making the frontend Prettier
 - Move database from `.json` to structred database (eg. Postgresql)
+
+---
 
 ## Credits
 
@@ -86,3 +98,5 @@ The site was deployed on `Render` but was routed through `Cloudflare`.
 ### Inspired from
 
 ['Find an Empty Classroom' by Sakshi K](https://iilm-vacant-classroom-finder.onrender.com/)
+
+---
