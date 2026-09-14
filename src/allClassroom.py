@@ -5,7 +5,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 d = open(BASE_DIR.parent / "timetable.json", "r")
 
-jsonData = json.load(f)
+jsonData = json.load(d)
 
 classroom = set()
 
