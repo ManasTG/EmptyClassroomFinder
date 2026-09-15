@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, WebDriverException
 
 
 maxRetries = 3
@@ -41,7 +41,7 @@ def load_page():
 
             return driver
 
-        except TimeoutException:
+        except WebDriverException:
             print("Website not loaded")
 
         if driver:

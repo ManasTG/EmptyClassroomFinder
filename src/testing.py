@@ -15,8 +15,8 @@ section = set()
 classroomSection = []
 emptyClassroom = set()
 
-localPeriod = [5]
-localDay = "Wednesday"
+localPeriod = [6]
+localDay = "Tuesday"
 
 lengthAll = len(allClassroom)
 
