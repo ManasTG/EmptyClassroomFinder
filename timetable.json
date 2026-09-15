@@ -6917,6 +6917,44 @@
     },
     {
         "Section": "1CSE39",
+        "Subject": "26SOST101-Semiconductor and Quantum Physics",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            8
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26SOSP101-Semiconductor and Quantum Physics   Lab",
+        "Classroom": "Physics Lab I",
+        "Period": [
+            3,
+            4
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEP108-Programming in C Lab Lab",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            6,
+            7
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 301",
+        "Period": [
+            9
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE39",
         "Subject": "26SOSP101-Semiconductor and Quantum Physics   Lab",
         "Classroom": "Physics Lab I",
         "Period": [
@@ -14441,20 +14479,20 @@
     },
     {
         "Section": "2CSE27",
-        "Subject": "26CSEC302-Data Structures & Algorithms Lab",
-        "Classroom": "LAB SVH 103",
+        "Subject": "26CSEM381-Data Analytics",
+        "Classroom": "EB 404",
         "Period": [
-            3,
-            4
+            2
         ],
         "Day": "Monday"
     },
     {
         "Section": "2CSE27",
-        "Subject": "26CSEM381-Data Analytics",
-        "Classroom": "EB 404",
+        "Subject": "26CSEC302-Data Structures & Algorithms Lab",
+        "Classroom": "LAB SVH 103",
         "Period": [
-            2
+            3,
+            4
         ],
         "Day": "Monday"
     },
@@ -19756,9 +19794,9 @@
     {
         "Section": "3CSE5",
         "Subject": "26CSEM521-Data Engineering in AI Systems",
-        "Classroom": "SVH 204",
+        "Classroom": "Law Block 401",
         "Period": [
-            7
+            5
         ],
         "Day": "Friday"
     },
@@ -19775,9 +19813,9 @@
     {
         "Section": "3CSE5",
         "Subject": "26CSEC503-Cloud Computing",
-        "Classroom": "Law Block 306",
+        "Classroom": "SVH 204",
         "Period": [
-            4
+            7
         ],
         "Day": "Friday"
     },
@@ -29812,15 +29850,6 @@
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "EB 201",
         "Period": [
-            3
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "4CSE4",
-        "Subject": "26CSEM722-Natural Language Processing",
-        "Classroom": "EB 201",
-        "Period": [
             6
         ],
         "Day": "Wednesday"
@@ -29870,6 +29899,15 @@
             2
         ],
         "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE4",
+        "Subject": "26CSEM722-Natural Language Processing",
+        "Classroom": "EB 201",
+        "Period": [
+            5
+        ],
+        "Day": "Thursday"
     },
     {
         "Section": "4CSE4",
@@ -32798,7 +32836,7 @@
     },
     {
         "Section": "2MCA2",
-        "Subject": "26MCAC309-Soft Skills Mastery",
+        "Subject": "26MCAC104-Advance Computer Networks",
         "Classroom": "EB 201",
         "Period": [
             5
@@ -32854,7 +32892,7 @@
     {
         "Section": "2MCA2",
         "Subject": "26MCAC302-Quantum Computing",
-        "Classroom": "Foundation Block 103",
+        "Classroom": "Foundation Block 104",
         "Period": [
             3
         ],
@@ -32889,6 +32927,24 @@
     },
     {
         "Section": "2MCA2",
+        "Subject": "26MCAC308-Advance Analytical Skills",
+        "Classroom": "Foundation Block 104",
+        "Period": [
+            7
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "2MCA2",
+        "Subject": "26MCAC309-Soft Skills Mastery",
+        "Classroom": "Foundation Block 104",
+        "Period": [
+            4
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "2MCA2",
         "Subject": "26MCAC302-Quantum Computing",
         "Classroom": "Foundation Block 104",
         "Period": [
@@ -32898,17 +32954,8 @@
     },
     {
         "Section": "2MCA2",
-        "Subject": "26MCAC104-Advance Computer Networks",
-        "Classroom": "Foundation Block 104",
-        "Period": [
-            4
-        ],
-        "Day": "Thursday"
-    },
-    {
-        "Section": "2MCA2",
         "Subject": "26MCAC304-Full Stack Development",
-        "Classroom": "Foundation Block 103",
+        "Classroom": "Foundation Block 104",
         "Period": [
             6
         ],
