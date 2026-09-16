@@ -15,7 +15,7 @@ section = set()
 classroomSection = []
 emptyClassroom = set()
 
-localPeriod = [6]
+localPeriod = [7]
 localDay = "Tuesday"
 
 lengthAll = len(allClassroom)
@@ -34,6 +34,8 @@ for item in timetable:
 
 for item in classroomSection:
     print(item)
+
+print("Day and Period", localDay, localPeriod)
 
 print("All classroom:", lengthAll)
 print("occupied:", len(occupiedClassroom))
