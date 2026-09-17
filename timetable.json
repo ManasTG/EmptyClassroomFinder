@@ -6531,7 +6531,7 @@
     {
         "Section": "1CSE37",
         "Subject": "26SOSP101-Semiconductor and Quantum Physics   Lab",
-        "Classroom": "Physics Lab I",
+        "Classroom": "Physics Lab II",
         "Period": [
             8,
             9
@@ -6921,16 +6921,6 @@
         "Classroom": "Foundation Block 301",
         "Period": [
             8
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "1CSE39",
-        "Subject": "26SOSP101-Semiconductor and Quantum Physics   Lab",
-        "Classroom": "Physics Lab I",
-        "Period": [
-            3,
-            4
         ],
         "Day": "Wednesday"
     },
@@ -12928,6 +12918,15 @@
     },
     {
         "Section": "2CSE22",
+        "Subject": "26CSEC302-Data Structures & Algorithms",
+        "Classroom": "EB 206",
+        "Period": [
+            7
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "2CSE22",
         "Subject": "26CSEC309-Emerging Technologies",
         "Classroom": "Law Block 301",
         "Period": [
@@ -13106,6 +13105,15 @@
     },
     {
         "Section": "2CSE22",
+        "Subject": "26CSEC301-Data Communication and Networking",
+        "Classroom": "Foundation Block 104",
+        "Period": [
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "2CSE22",
         "Subject": "26CSEE311-Gen. AI Tools and App (Elective-01)",
         "Classroom": "Law Block 301",
         "Period": [
@@ -13154,28 +13162,10 @@
     },
     {
         "Section": "2CSE22",
-        "Subject": "26CSEC301-Data Communication and Networking",
-        "Classroom": "Law Block 301",
-        "Period": [
-            7
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE22",
         "Subject": "26CSEC302-Data Structures & Algorithms",
         "Classroom": "Law Block 301",
         "Period": [
-            9
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE22",
-        "Subject": "26CSEC302-Data Structures & Algorithms",
-        "Classroom": "Law Block 301",
-        "Period": [
-            8
+            1
         ],
         "Day": "Saturday"
     },
@@ -29428,6 +29418,16 @@
     },
     {
         "Section": "4CSE1",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            4,
+            5
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE1",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "SVH 201",
         "Period": [
@@ -29536,6 +29536,16 @@
         "Day": "Thursday"
     },
     {
+        "Section": "4CSE1",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            6,
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
         "Section": "4CSE2",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "SVH 201",
@@ -29560,6 +29570,16 @@
         "Classroom": "SVH 206",
         "Period": [
             7
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE2",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            2,
+            3
         ],
         "Day": "Tuesday"
     },
@@ -29596,6 +29616,16 @@
         "Classroom": "SVH 201",
         "Period": [
             5
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE2",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            1,
+            2
         ],
         "Day": "Thursday"
     },
@@ -29784,6 +29814,26 @@
     },
     {
         "Section": "4CSE3",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE3",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE3",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "SVH 205",
         "Period": [
@@ -29844,6 +29894,16 @@
             7
         ],
         "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE4",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Monday"
     },
     {
         "Section": "4CSE4",
@@ -29924,6 +29984,16 @@
         "Classroom": "EB 206",
         "Period": [
             2
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE4",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            3,
+            4
         ],
         "Day": "Thursday"
     },
@@ -30156,6 +30226,36 @@
         "Day": "Wednesday"
     },
     {
+        "Section": "4CSE5",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE5",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE6",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Monday"
+    },
+    {
         "Section": "4CSE6",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "EB 207",
@@ -30258,6 +30358,16 @@
     },
     {
         "Section": "4CSE6",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE6",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "EB 207",
         "Period": [
@@ -30346,6 +30456,36 @@
             3
         ],
         "Day": "Saturday"
+    },
+    {
+        "Section": "4CSE7",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            3,
+            4
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "4CSE7",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            3,
+            4
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE8",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Wednesday"
     },
     {
         "Section": "4CSE8",
@@ -30503,6 +30643,16 @@
         "Day": "Saturday"
     },
     {
+        "Section": "4CSE8",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Saturday"
+    },
+    {
         "Section": "4CSE9",
         "Subject": "26CSEM752-Ethical Hacking and Cyber Security",
         "Classroom": "SVH 206",
@@ -30563,6 +30713,16 @@
         "Classroom": "SVH 206",
         "Period": [
             2
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE9",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            6,
+            7
         ],
         "Day": "Tuesday"
     },
@@ -30656,6 +30816,26 @@
             1
         ],
         "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE9",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "4CSE10",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Monday"
     },
     {
         "Section": "4CSE10",
@@ -30763,6 +30943,16 @@
         "Classroom": "Foundation Block 102",
         "Period": [
             3
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE10",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            8,
+            9
         ],
         "Day": "Thursday"
     },
@@ -30949,6 +31139,16 @@
     },
     {
         "Section": "4CSE11",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE11",
         "Subject": "26CSEM772-Web Prog for G & G",
         "Classroom": "Foundation Block 102",
         "Period": [
@@ -30982,6 +31182,16 @@
         "Classroom": "SVH 206",
         "Period": [
             2
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE11",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            7,
+            8
         ],
         "Day": "Wednesday"
     },
@@ -31029,6 +31239,26 @@
             4
         ],
         "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE12",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            4,
+            5
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE12",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            7,
+            8
+        ],
+        "Day": "Wednesday"
     },
     {
         "Section": "4CSE12",
@@ -31341,6 +31571,26 @@
         "Day": "Wednesday"
     },
     {
+        "Section": "4CSE13",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            4,
+            5
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "4CSE13",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Friday"
+    },
+    {
         "Section": "4CSE14",
         "Subject": "26CSEM731-Blockchain for Business",
         "Classroom": "SVH 204",
@@ -31384,6 +31634,26 @@
             6
         ],
         "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE14",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "4CSE14",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Wednesday"
     },
     {
         "Section": "4CSE14",
@@ -31694,6 +31964,26 @@
         "Day": "Wednesday"
     },
     {
+        "Section": "4CSE15",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE15",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Thursday"
+    },
+    {
         "Section": "1BCA1",
         "Subject": "26BCAS101-Foundation in Quantitative Aptitude",
         "Classroom": "Foundation Block 404",
@@ -31818,16 +32108,6 @@
         "Classroom": "Foundation Block 404",
         "Period": [
             1
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "1BCA1",
-        "Subject": "26BCAC101-Programming for Problem Solving using C",
-        "Classroom": "Foundation Block 404",
-        "Period": [
-            7,
-            8
         ],
         "Day": "Wednesday"
     },
@@ -31872,7 +32152,7 @@
         "Subject": "26BCAC101-Programming for Problem Solving using C",
         "Classroom": "Foundation Block 404",
         "Period": [
-            1
+            4
         ],
         "Day": "Thursday"
     },
@@ -31907,7 +32187,7 @@
     {
         "Section": "1BCA1",
         "Subject": "26BCAC101-Programming for Problem Solving using C",
-        "Classroom": "Foundation Block 404",
+        "Classroom": "Foundation Block 302",
         "Period": [
             1,
             2
@@ -31916,8 +32196,18 @@
     },
     {
         "Section": "1BCA1",
+        "Subject": "26BCAC101-Programming for Problem Solving using C",
+        "Classroom": "Foundation Block 404",
+        "Period": [
+            6,
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "1BCA1",
         "Subject": "Cyber Security Essentials Lab",
-        "Classroom": null,
+        "Classroom": "Foundation Block 402",
         "Period": [
             3,
             4
@@ -32700,6 +32990,26 @@
     },
     {
         "Section": "2MCA1",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "2MCA1",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "2MCA1",
         "Subject": "26MCAC308-Advance Analytical Skills",
         "Classroom": "Foundation Block 103",
         "Period": [
@@ -32972,6 +33282,16 @@
     },
     {
         "Section": "2MCA2",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "2MCA2",
         "Subject": "26MCAC302-Quantum Computing",
         "Classroom": "Foundation Block 104",
         "Period": [
@@ -33004,6 +33324,16 @@
         "Classroom": "Foundation Block 104",
         "Period": [
             2
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "2MCA2",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            7,
+            8
         ],
         "Day": "Friday"
     }
