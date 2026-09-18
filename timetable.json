@@ -5426,7 +5426,7 @@
     },
     {
         "Section": "1CSE31",
-        "Subject": "26CSEC104-Computational Design Thinking",
+        "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 206",
         "Period": [
             6
@@ -5546,19 +5546,19 @@
     },
     {
         "Section": "1CSE31",
-        "Subject": "26SOSC103-Applied Calculus",
+        "Subject": "26SOSP103-Applied Calculus Lab",
         "Classroom": "Foundation Block 206",
         "Period": [
-            9
+            6
         ],
         "Day": "Thursday"
     },
     {
         "Section": "1CSE31",
-        "Subject": "26SOSP103-Applied Calculus Lab",
+        "Subject": "26CSEC104-Computational Design Thinking",
         "Classroom": "Foundation Block 206",
         "Period": [
-            6
+            9
         ],
         "Day": "Thursday"
     },
@@ -6589,7 +6589,7 @@
         "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 301",
         "Period": [
-            4
+            2
         ],
         "Day": "Tuesday"
     },
@@ -6616,7 +6616,7 @@
         "Subject": "26CSEC107-Foundation of AI and Automation",
         "Classroom": "Foundation Block 301",
         "Period": [
-            2
+            4
         ],
         "Day": "Tuesday"
     },
