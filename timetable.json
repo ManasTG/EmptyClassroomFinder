@@ -32031,15 +32031,6 @@
     },
     {
         "Section": "1BCA1",
-        "Subject": "Introduction to AI",
-        "Classroom": "Foundation Block 404",
-        "Period": [
-            5
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "1BCA1",
         "Subject": "26BCAS101-Foundation in Quantitative Aptitude",
         "Classroom": "Foundation Block 404",
         "Period": [
@@ -32172,6 +32163,15 @@
         "Classroom": "Foundation Block 404",
         "Period": [
             2
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1BCA1",
+        "Subject": "Introduction to AI",
+        "Classroom": "Foundation Block 404",
+        "Period": [
+            1
         ],
         "Day": "Thursday"
     },
@@ -33122,7 +33122,7 @@
         "Subject": "26MCAE311-Cloud Computing (Minor 2)",
         "Classroom": "Foundation Block 103",
         "Period": [
-            4
+            9
         ],
         "Day": "Friday"
     },
