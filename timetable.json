@@ -6854,8 +6854,8 @@
         "Subject": "26CSEP108-Programming in C Lab Lab",
         "Classroom": "Foundation Block 402",
         "Period": [
-            8,
-            9
+            3,
+            4
         ],
         "Day": "Saturday"
     },
@@ -6890,6 +6890,60 @@
     {
         "Section": "1CSE39",
         "Subject": "26SOST101-Semiconductor and Quantum Physics",
+        "Classroom": "Foundation Block 304",
+        "Period": [
+            5
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26SOSC103-Applied Calculus",
+        "Classroom": "Foundation Block 104",
+        "Period": [
+            2
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CCSS105-Professional Communication for Engineers",
+        "Classroom": "Foundation Block 304",
+        "Period": [
+            7
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC104-Computational Design Thinking",
+        "Classroom": "Foundation Block 304",
+        "Period": [
+            9
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 304",
+        "Period": [
+            4
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 304",
+        "Period": [
+            8
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE39",
+        "Subject": "26SOST101-Semiconductor and Quantum Physics",
         "Classroom": "Foundation Block 301",
         "Period": [
             6
@@ -6917,7 +6971,7 @@
     },
     {
         "Section": "1CSE39",
-        "Subject": "26SOST101-Semiconductor and Quantum Physics",
+        "Subject": "26SOSP103-Applied Calculus Lab",
         "Classroom": "Foundation Block 301",
         "Period": [
             8
@@ -6955,19 +7009,19 @@
     },
     {
         "Section": "1CSE39",
-        "Subject": "26CSEC104-Computational Design Thinking",
+        "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 301",
         "Period": [
-            7
+            6
         ],
         "Day": "Thursday"
     },
     {
         "Section": "1CSE39",
-        "Subject": "26CSEC108-Programming in C",
+        "Subject": "26CSEC104-Computational Design Thinking",
         "Classroom": "Foundation Block 301",
         "Period": [
-            6
+            7
         ],
         "Day": "Thursday"
     },
@@ -6982,7 +7036,7 @@
     },
     {
         "Section": "1CSE39",
-        "Subject": "26CSEC104-Computational Design Thinking",
+        "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 301",
         "Period": [
             6
@@ -6991,10 +7045,10 @@
     },
     {
         "Section": "1CSE39",
-        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Subject": "26CCSS105-Professional Communication for Engineers",
         "Classroom": "Foundation Block 301",
         "Period": [
-            9
+            8
         ],
         "Day": "Friday"
     },
@@ -7003,7 +7057,191 @@
         "Subject": "26CSEC108-Programming in C",
         "Classroom": "Foundation Block 301",
         "Period": [
+            9
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            4
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26ECET102-Digital Electronics and Computer Organization",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            3
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSC103-Applied Calculus",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            2
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSV106-Environmental Studies & Disaster Management",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            1
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC104-Computational Design Thinking",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            2
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            3
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSC103-Applied Calculus",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            4
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSP103-Applied Calculus Lab",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            1
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC104-Computational Design Thinking",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            5
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            1
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEP111-Linux Administration Lab",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            2,
+            3
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26ECET102-Digital Electronics and Computer Organization",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            4
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 402",
+        "Period": [
+            3
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEC108-Programming in C",
+        "Classroom": "Foundation Block 402",
+        "Period": [
+            1
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26ECET102-Digital Electronics and Computer Organization",
+        "Classroom": "Foundation Block 402",
+        "Period": [
+            2
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26ECEP102-Digital Electronics and Computer Organization LAB",
+        "Classroom": "Digital Electronics-3",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26ECEP102-Digital Electronics and Computer Organization LAB",
+        "Classroom": "Digital Electronics-3",
+        "Period": [
+            8,
+            9
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26CSEP108-Programming in C Lab Lab",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            6,
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSC103-Applied Calculus",
+        "Classroom": "Foundation Block 302",
+        "Period": [
             8
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "1CSE40",
+        "Subject": "26SOSV106-Environmental Studies & Disaster Management",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            5
         ],
         "Day": "Friday"
     },
@@ -11221,7 +11459,7 @@
     },
     {
         "Section": "2CSE16",
-        "Subject": "26CSEC309-Emerging Technologies",
+        "Subject": "26CSEC301-Data Communication and Networking",
         "Classroom": "EB 305",
         "Period": [
             5
@@ -11305,7 +11543,7 @@
     },
     {
         "Section": "2CSE16",
-        "Subject": "26CSEC301-Data Communication and Networking",
+        "Subject": "26CSEC309-Emerging Technologies",
         "Classroom": "EB 305",
         "Period": [
             5
@@ -17588,7 +17826,8 @@
         "Subject": "Major Project",
         "Classroom": "SVH 210",
         "Period": [
-            8
+            8,
+            9
         ],
         "Day": "Monday"
     },
@@ -17986,6 +18225,16 @@
             3
         ],
         "Day": "Friday"
+    },
+    {
+        "Section": "3CSE2",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            1,
+            2
+        ],
+        "Day": "Monday"
     },
     {
         "Section": "3CSE2",
@@ -29824,16 +30073,6 @@
     },
     {
         "Section": "4CSE3",
-        "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 403",
-        "Period": [
-            1,
-            2
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "4CSE3",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "SVH 205",
         "Period": [
@@ -31005,7 +31244,7 @@
     {
         "Section": "4CSE11",
         "Subject": "26CSEM771-Dynamic Paradigm in Graphics and Gaming",
-        "Classroom": "EB 205",
+        "Classroom": "SVH 213",
         "Period": [
             1
         ],
@@ -31068,7 +31307,7 @@
     {
         "Section": "4CSE11",
         "Subject": "26CSEM771-Dynamic Paradigm in Graphics and Gaming",
-        "Classroom": "SVH 205",
+        "Classroom": "Foundation Block 102",
         "Period": [
             7
         ],
@@ -31104,9 +31343,9 @@
     {
         "Section": "4CSE11",
         "Subject": "26CSEM772-Web Prog for G & G",
-        "Classroom": "SVH 213",
+        "Classroom": "Foundation Block 102",
         "Period": [
-            1
+            8
         ],
         "Day": "Tuesday"
     },
@@ -31134,16 +31373,6 @@
         "Classroom": "SVH 206",
         "Period": [
             6
-        ],
-        "Day": "Tuesday"
-    },
-    {
-        "Section": "4CSE11",
-        "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 303",
-        "Period": [
-            8,
-            9
         ],
         "Day": "Tuesday"
     },
@@ -31237,6 +31466,16 @@
         "Classroom": "EB 406",
         "Period": [
             4
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "4CSE11",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 102",
+        "Period": [
+            8,
+            9
         ],
         "Day": "Thursday"
     },
