@@ -17823,16 +17823,6 @@
     },
     {
         "Section": "3CSE1",
-        "Subject": "Major Project",
-        "Classroom": "SVH 210",
-        "Period": [
-            8,
-            9
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "3CSE1",
         "Subject": "26CCSS501-Communication Competency and Aptitude Building - II",
         "Classroom": "SVH 301",
         "Period": [
@@ -18225,16 +18215,6 @@
             3
         ],
         "Day": "Friday"
-    },
-    {
-        "Section": "3CSE2",
-        "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 406",
-        "Period": [
-            1,
-            2
-        ],
-        "Day": "Monday"
     },
     {
         "Section": "3CSE2",
@@ -18682,24 +18662,6 @@
         "Classroom": "Foundation Block 104",
         "Period": [
             8
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "3CSE2",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            1
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "3CSE2",
-        "Subject": "Major Project",
-        "Classroom": "EB 202",
-        "Period": [
-            2
         ],
         "Day": "Saturday"
     },
@@ -25218,15 +25180,6 @@
     },
     {
         "Section": "3CSE17",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            3
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "3CSE17",
         "Subject": "26CCSS501-Communication Competency and Aptitude Building - II",
         "Classroom": "SVH 201",
         "Period": [
@@ -26104,15 +26057,6 @@
         "Classroom": "SVH 204",
         "Period": [
             9
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "3CSE18",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            8
         ],
         "Day": "Saturday"
     },
@@ -27943,15 +27887,6 @@
     },
     {
         "Section": "3CSE23",
-        "Subject": "Major Project",
-        "Classroom": "EB 203",
-        "Period": [
-            9
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "3CSE23",
         "Subject": "26CCSS501-Communication Competency and Aptitude Building - II",
         "Classroom": "Foundation Block 101",
         "Period": [
@@ -28797,24 +28732,6 @@
     },
     {
         "Section": "3CSE25",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            1
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "3CSE25",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            7
-        ],
-        "Day": "Monday"
-    },
-    {
-        "Section": "3CSE25",
         "Subject": "26CCSS501-Communication Competency and Aptitude Building - II",
         "Classroom": "EB 201",
         "Period": [
@@ -29598,24 +29515,6 @@
         "Classroom": "SVH 302",
         "Period": [
             8
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "3CSE26",
-        "Subject": "Major Project",
-        "Classroom": "EB 206",
-        "Period": [
-            1
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "3CSE26",
-        "Subject": "Major Project",
-        "Classroom": "EB 201",
-        "Period": [
-            9
         ],
         "Day": "Saturday"
     },
