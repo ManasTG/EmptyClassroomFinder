@@ -10,6 +10,9 @@ This project solves that problem by scraping the timetable directly from the uni
 
 A Github Action workflow runs where it trigger's the scraping process every morning 7AM. If the timetable has changed, the updated JSON data is committed to the repository. If there are no changes, no commit is made.
 
+### Limitations
+Data of only B.tech and BCA classes are available so other departments classes cannot be 
+
 ---
 
 ## Features
