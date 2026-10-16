@@ -5346,7 +5346,7 @@
         "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 306",
         "Period": [
-            9
+            8
         ],
         "Day": "Friday"
     },
@@ -5365,7 +5365,7 @@
         "Subject": "26SOSP103-Applied Calculus Lab",
         "Classroom": "Foundation Block 306",
         "Period": [
-            8
+            9
         ],
         "Day": "Friday"
     },
@@ -6531,7 +6531,7 @@
     {
         "Section": "1CSE37",
         "Subject": "26SOSP101-Semiconductor and Quantum Physics   Lab",
-        "Classroom": "Physics Lab II",
+        "Classroom": "Physics Lab I",
         "Period": [
             8,
             9
@@ -6901,7 +6901,7 @@
         "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 104",
         "Period": [
-            2
+            3
         ],
         "Day": "Monday"
     },
@@ -7120,7 +7120,7 @@
         "Subject": "26SOSC103-Applied Calculus",
         "Classroom": "Foundation Block 302",
         "Period": [
-            4
+            1
         ],
         "Day": "Tuesday"
     },
@@ -7129,7 +7129,7 @@
         "Subject": "26SOSP103-Applied Calculus Lab",
         "Classroom": "Foundation Block 302",
         "Period": [
-            1
+            4
         ],
         "Day": "Tuesday"
     },
@@ -29688,8 +29688,8 @@
         "Subject": "Capstone Project.",
         "Classroom": "Foundation Block 403",
         "Period": [
-            6,
-            7
+            8,
+            9
         ],
         "Day": "Friday"
     },
@@ -29911,6 +29911,16 @@
         "Classroom": "SVH 205",
         "Period": [
             3
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "4CSE3",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            8,
+            9
         ],
         "Day": "Monday"
     },
@@ -30386,10 +30396,10 @@
     {
         "Section": "4CSE6",
         "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 403",
+        "Classroom": "Foundation Block 406",
         "Period": [
-            8,
-            9
+            1,
+            2
         ],
         "Day": "Monday"
     },
@@ -30496,16 +30506,6 @@
     },
     {
         "Section": "4CSE6",
-        "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 403",
-        "Period": [
-            8,
-            9
-        ],
-        "Day": "Thursday"
-    },
-    {
-        "Section": "4CSE6",
         "Subject": "26CSEM722-Natural Language Processing",
         "Classroom": "EB 207",
         "Period": [
@@ -30596,14 +30596,24 @@
         "Day": "Saturday"
     },
     {
+        "Section": "4CSE6",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            5,
+            6
+        ],
+        "Day": "Saturday"
+    },
+    {
         "Section": "4CSE7",
         "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 403",
+        "Classroom": "Foundation Block 406",
         "Period": [
             3,
             4
         ],
-        "Day": "Monday"
+        "Day": "Tuesday"
     },
     {
         "Section": "4CSE7",
@@ -30618,7 +30628,7 @@
     {
         "Section": "4CSE8",
         "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 303",
+        "Classroom": "Foundation Block 403",
         "Period": [
             1,
             2
@@ -30970,8 +30980,18 @@
         "Subject": "Capstone Project.",
         "Classroom": "Foundation Block 303",
         "Period": [
-            1,
-            2
+            5,
+            6
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "4CSE10",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            8,
+            9
         ],
         "Day": "Monday"
     },
@@ -31081,16 +31101,6 @@
         "Classroom": "Foundation Block 102",
         "Period": [
             3
-        ],
-        "Day": "Thursday"
-    },
-    {
-        "Section": "4CSE10",
-        "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 303",
-        "Period": [
-            8,
-            9
         ],
         "Day": "Thursday"
     },
@@ -31315,16 +31325,6 @@
     },
     {
         "Section": "4CSE11",
-        "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 303",
-        "Period": [
-            7,
-            8
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "4CSE11",
         "Subject": "26CSEE711-Real Time system (DE-5)",
         "Classroom": "SVH 205",
         "Period": [
@@ -31371,7 +31371,7 @@
     {
         "Section": "4CSE11",
         "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 102",
+        "Classroom": "Foundation Block 403",
         "Period": [
             8,
             9
@@ -31379,22 +31379,32 @@
         "Day": "Thursday"
     },
     {
-        "Section": "4CSE12",
-        "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 406",
+        "Section": "4CSE11",
+        "Subject": "Capstone Project",
+        "Classroom": "Foundation Block 303",
         "Period": [
-            4,
-            5
+            7,
+            8
         ],
-        "Day": "Wednesday"
+        "Day": "Friday"
     },
     {
         "Section": "4CSE12",
         "Subject": "Capstone Project",
-        "Classroom": "Foundation Block 406",
+        "Classroom": "Foundation Block 303",
         "Period": [
-            7,
-            8
+            1,
+            2
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "4CSE12",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            4,
+            5
         ],
         "Day": "Wednesday"
     },
@@ -31711,7 +31721,7 @@
     {
         "Section": "4CSE13",
         "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 406",
+        "Classroom": "Foundation Block 403",
         "Period": [
             4,
             5
@@ -31727,6 +31737,16 @@
             2
         ],
         "Day": "Friday"
+    },
+    {
+        "Section": "4CSE14",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 403",
+        "Period": [
+            6,
+            7
+        ],
+        "Day": "Monday"
     },
     {
         "Section": "4CSE14",
@@ -31775,21 +31795,11 @@
     },
     {
         "Section": "4CSE14",
-        "Subject": "Capstone Project.",
-        "Classroom": "Foundation Block 406",
-        "Period": [
-            1,
-            2
-        ],
-        "Day": "Wednesday"
-    },
-    {
-        "Section": "4CSE14",
         "Subject": "Capstone Project",
         "Classroom": "Foundation Block 403",
         "Period": [
-            5,
-            6
+            6,
+            7
         ],
         "Day": "Wednesday"
     },
@@ -32106,8 +32116,8 @@
         "Subject": "Capstone Project.",
         "Classroom": "Foundation Block 406",
         "Period": [
-            1,
-            2
+            2,
+            3
         ],
         "Day": "Thursday"
     },
@@ -32116,8 +32126,8 @@
         "Subject": "Capstone Project",
         "Classroom": "Foundation Block 406",
         "Period": [
-            5,
-            6
+            6,
+            7
         ],
         "Day": "Thursday"
     },
@@ -33283,6 +33293,16 @@
         "Day": "Friday"
     },
     {
+        "Section": "2MCA1",
+        "Subject": "Capstone Project.",
+        "Classroom": "Foundation Block 406",
+        "Period": [
+            4,
+            5
+        ],
+        "Day": "Friday"
+    },
+    {
         "Section": "2MCA2",
         "Subject": "26MCAC104-Advance Computer Networks",
         "Classroom": "EB 201",
@@ -33474,5 +33494,59 @@
             8
         ],
         "Day": "Friday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS001-Artificial Intelligence and Predictive Anaysis",
+        "Classroom": null,
+        "Period": [
+            3
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS002 IoT and Cloud Security",
+        "Classroom": null,
+        "Period": [
+            2
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS001-Artificial Intelligence and Predictive Anaysis",
+        "Classroom": null,
+        "Period": [
+            4
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS002 IoT and Cloud Security",
+        "Classroom": null,
+        "Period": [
+            3
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS001-Artificial Intelligence and Predictive Anaysis",
+        "Classroom": null,
+        "Period": [
+            2
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "PhD Sem II",
+        "Subject": "PHDCS002 IoT and Cloud Security",
+        "Classroom": null,
+        "Period": [
+            1
+        ],
+        "Day": "Thursday"
     }
 ]
