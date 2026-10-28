@@ -8874,7 +8874,7 @@
     {
         "Section": "2CSE6",
         "Subject": "26CSEC302-Data Structures & Algorithms Lab",
-        "Classroom": "LAB Law Block 304",
+        "Classroom": "LAB SVH 103",
         "Period": [
             7,
             8
@@ -13231,9 +13231,9 @@
     {
         "Section": "2CSE22",
         "Subject": "26CSEC302-Data Structures & Algorithms",
-        "Classroom": "Law Block 301",
+        "Classroom": "EB 201",
         "Period": [
-            9
+            3
         ],
         "Day": "Wednesday"
     },
