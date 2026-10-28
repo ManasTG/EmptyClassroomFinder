@@ -3679,9 +3679,9 @@
     {
         "Section": "1CSE21",
         "Subject": "26CSEC107-Foundation of AI and Automation",
-        "Classroom": "Foundation Block 204",
+        "Classroom": "Foundation Block 102",
         "Period": [
-            4
+            8
         ],
         "Day": "Thursday"
     },
@@ -4028,6 +4028,15 @@
     },
     {
         "Section": "1CSE23",
+        "Subject": "26CSEC107-Foundation of AI and Automation",
+        "Classroom": "Foundation Block 202",
+        "Period": [
+            4
+        ],
+        "Day": "Wednesday"
+    },
+    {
+        "Section": "1CSE23",
         "Subject": "26CSEP111-Linux Administration Lab",
         "Classroom": "Foundation Block 204",
         "Period": [
@@ -4106,15 +4115,6 @@
         "Classroom": "Foundation Block 204",
         "Period": [
             9
-        ],
-        "Day": "Friday"
-    },
-    {
-        "Section": "1CSE23",
-        "Subject": "26CSEC107-Foundation of AI and Automation",
-        "Classroom": "Foundation Block 204",
-        "Period": [
-            8
         ],
         "Day": "Friday"
     },
@@ -7332,7 +7332,7 @@
     {
         "Section": "2CSE1",
         "Subject": "26CSEC301-Data Communication and Networking",
-        "Classroom": "EB 402",
+        "Classroom": "Foundation Block 303",
         "Period": [
             3
         ],
@@ -7341,7 +7341,7 @@
     {
         "Section": "2CSE1",
         "Subject": "26CSEC309-Emerging Technologies",
-        "Classroom": "EB 205",
+        "Classroom": "Foundation Block 303",
         "Period": [
             4
         ],
@@ -8250,6 +8250,15 @@
     },
     {
         "Section": "2CSE4",
+        "Subject": "26CSEC309-Emerging Technologies",
+        "Classroom": "Foundation Block 303",
+        "Period": [
+            3
+        ],
+        "Day": "Thursday"
+    },
+    {
+        "Section": "2CSE4",
         "Subject": "26CSEE311-Gen. AI Tools and App (Elective-01)",
         "Classroom": "EB 402",
         "Period": [
@@ -8330,15 +8339,6 @@
         "Classroom": "EB 402",
         "Period": [
             2
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE4",
-        "Subject": "26CSEC309-Emerging Technologies",
-        "Classroom": "EB 402",
-        "Period": [
-            7
         ],
         "Day": "Saturday"
     },
@@ -9255,11 +9255,29 @@
     {
         "Section": "2CSE8",
         "Subject": "26CSEM321-Data Visualization and Analysis (SP)-AIML",
+        "Classroom": "EB 205",
+        "Period": [
+            4
+        ],
+        "Day": "Tuesday"
+    },
+    {
+        "Section": "2CSE8",
+        "Subject": "26CSEM321-Data Visualization and Analysis (SP)-AIML",
         "Classroom": "EB 404",
         "Period": [
             8
         ],
         "Day": "Tuesday"
+    },
+    {
+        "Section": "2CSE8",
+        "Subject": "26CSEC309-Emerging Technologies",
+        "Classroom": "EB 201",
+        "Period": [
+            1
+        ],
+        "Day": "Wednesday"
     },
     {
         "Section": "2CSE8",
@@ -9404,15 +9422,6 @@
     },
     {
         "Section": "2CSE8",
-        "Subject": "26CSEM321-Data Visualization and Analysis (SP)-AIML",
-        "Classroom": "EB 205",
-        "Period": [
-            5
-        ],
-        "Day": "Friday"
-    },
-    {
-        "Section": "2CSE8",
         "Subject": "26CSEC301-Data Communication and Networking",
         "Classroom": "EB 205",
         "Period": [
@@ -9426,15 +9435,6 @@
         "Classroom": "EB 205",
         "Period": [
             7
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE8",
-        "Subject": "26CSEC309-Emerging Technologies",
-        "Classroom": "EB 205",
-        "Period": [
-            8
         ],
         "Day": "Saturday"
     },
@@ -16907,6 +16907,15 @@
     },
     {
         "Section": "2CSE36",
+        "Subject": "PPS- II (JAVA)",
+        "Classroom": "EB 207",
+        "Period": [
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "2CSE36",
         "Subject": "26CSEC301-Data Communication and Networking",
         "Classroom": "Law Block 306",
         "Period": [
@@ -16956,15 +16965,6 @@
         "Section": "2CSE36",
         "Subject": "26CSEC305-Programming for Problem Solving - II (C++)",
         "Classroom": "Law Block 306",
-        "Period": [
-            4
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE36",
-        "Subject": "PPS- II (JAVA)",
-        "Classroom": "Law Block 301",
         "Period": [
             4
         ],
@@ -17360,6 +17360,15 @@
     },
     {
         "Section": "2CSE38",
+        "Subject": "PPS- II (JAVA)",
+        "Classroom": "EB 207",
+        "Period": [
+            7
+        ],
+        "Day": "Friday"
+    },
+    {
+        "Section": "2CSE38",
         "Subject": "26CSEC309-Emerging Technologies",
         "Classroom": "Law Block 308",
         "Period": [
@@ -17411,15 +17420,6 @@
         "Section": "2CSE38",
         "Subject": "26CSEC305-Programming for Problem Solving - II (C++)",
         "Classroom": "Law Block 306",
-        "Period": [
-            4
-        ],
-        "Day": "Saturday"
-    },
-    {
-        "Section": "2CSE38",
-        "Subject": "PPS- II (JAVA)",
-        "Classroom": "Law Block 301",
         "Period": [
             4
         ],
@@ -32161,6 +32161,16 @@
     },
     {
         "Section": "1BCA1",
+        "Subject": "26BCAC101-Programming for Problem Solving using C",
+        "Classroom": "Foundation Block 302",
+        "Period": [
+            7,
+            8
+        ],
+        "Day": "Monday"
+    },
+    {
+        "Section": "1BCA1",
         "Subject": "26BCAC102-Fundamentals of Computers and IT",
         "Classroom": "Foundation Block 404",
         "Period": [
@@ -32339,16 +32349,6 @@
         "Period": [
             1,
             2
-        ],
-        "Day": "Friday"
-    },
-    {
-        "Section": "1BCA1",
-        "Subject": "26BCAC101-Programming for Problem Solving using C",
-        "Classroom": "Foundation Block 404",
-        "Period": [
-            6,
-            7
         ],
         "Day": "Friday"
     },
